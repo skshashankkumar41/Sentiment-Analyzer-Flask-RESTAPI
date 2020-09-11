@@ -3,15 +3,16 @@
 A flask based REST API deployed on Heroku to give response of sentiment of text data posted to it with probabilites.
 
 * **URL**
-  https://sentiment-bert-api.herokuapp.com/post/
+  https://sentiment-bert-api.herokuapp.com/post/ <br> 
   **CORS Enabled** - https://cors-anywhere.herokuapp.com/https://sentiment-bert-api.herokuapp.com/post/
 
 * **Method:**
    `POST` 
 
 * **Data Params**
+    data - text of which we want sentiment
 ```
-    {"data":"What a wonderful world"}
+    Example - {"data":"What a wonderful world"}
 ```
 
 * **Response:**
