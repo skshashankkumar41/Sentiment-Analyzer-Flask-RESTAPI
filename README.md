@@ -9,7 +9,7 @@ A flask based REST API deployed on Heroku to give response of sentiment of text 
 * **Method:**
    `POST` 
 
-* **Data Params**
+* **Data Params** <br>
     data - text of which we want sentiment
 ```
     Example - {"data":"What a wonderful world"}
@@ -22,7 +22,9 @@ A flask based REST API deployed on Heroku to give response of sentiment of text 
 * **Sample Example - Python:**
 ```
 import requests
+
 url = "https://sentiment-bert-api.herokuapp.com/post/"
+
 response = requests.post(url, json = {"data":"What a wonderful world"})
 print(response.json())
 
