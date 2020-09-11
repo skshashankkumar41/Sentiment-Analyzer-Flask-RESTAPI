@@ -1,6 +1,6 @@
 # Sentiment Analyzer Flask REST API 
 
-A flask based REST API deployed on Heroku to give response of sentiment of text data posted to it with probabilites.
+A flask based REST API deployed on Heroku to give a response of sentiment of text data posted to it with probabilities.
 
 * **URL**
   https://sentiment-bert-api.herokuapp.com/post/ <br> 
